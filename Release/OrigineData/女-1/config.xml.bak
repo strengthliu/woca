@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF8"?>
+<config version="3.0"
+	xmlns="http://www.dmg.org/PMML-3-0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema_instance" >
+
+	<head name="test" id=1>
+		<face facemodelfile="face1.png"></face>
+		<expression expressionname="smile">
+			<eyes>
+				<lefteye eyemodelfile="Eye_left_01.png" eyewithbrowmodelfile="Eye_left_02.png" browmodelfile="Eye_left_03.png" pupilmodelfile="Eye_left_00.png">
+					<eyepoint>
+						<left x=8 y=17/>
+						<right x=73 y=27/>
+						<top x=36 y=0/>
+						<buttom x=44 y=37/>
+					</eyepoint>
+					<browpoint>
+						<left x=0 y=11/>
+						<right x=88 y=20.5/>
+						<top x=36 y=0/>
+						<buttom x=82.5 y=24/>
+					</browpoint>
+				</lefteye>
+
+				<righteye eyemodelfile="Eye_right_01.png" eyewithbrowmodelfile="Eye_right_02.png" browmodelfile="Eye_right_03.png" pupilmodelfile="Eye_right_00.png">
+					<eyepoint>
+						<left x=6 y=23/>
+						<right x=76 y=17/>
+						<top x=35 y=0/>
+						<buttom x=30 y=37/>
+					</eyepoint>
+					<browpoint>
+						<left x=0 y=18/>
+						<right x=78 y=7.5/>
+						<top x=46 y=0/>
+						<buttom x=10.5 y=21/>
+					</browpoint>
+				</righteye>
+			</eyes>
+			<mouth mouthmodelfile = "Mouth.png" >
+				<mouthpoint>
+					<left x=1 y=7/>
+					<right x=88 y=7/>
+					<top x=45 y=4/>
+					<buttom x=44.5 y=34/>
+				</mouthpoint>
+			</mouth>
+		</expression>
+
+		<nose nosemodelfile="Nose.png">
+			<tippoint>
+				<left x=15 y=139.5/>
+				<right x=90 y=134.5/>
+				<buttom x=53 y=166/>
+				<middle x=53 y=137/>
+			</tippoint>
+			<bridgepoint>
+				<top x=0 y=108/>
+      </bridgepoint>
+		</nose>
+	</head>
+</config>
